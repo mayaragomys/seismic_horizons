@@ -45,7 +45,7 @@ python generateDataset.py
 ### 4 Treinamento:
 Defina as configurações no arquivo [config.py](https://github.com/yalaudah/facies_classification_benchmark). Em seguida, execute o comando:
 ```
-python main.py
+python main_train.py
 ```
 
 ### 5 Inferência:
