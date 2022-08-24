@@ -43,23 +43,23 @@ pip install -r requirements.txt
 Baixar o conjunto de dados de [Alaudah et al.](https://github.com/yalaudah/facies_classification_benchmark)
 
 ### 3 Geração da base de treino
-Se a base ainda não foi pré-processada defina as configurações no arquivo [config.py](https://github.com/yalaudah/facies_classification_benchmark). Em seguida, execute o comando: 
+Se a base ainda não foi pré-processada defina as configurações no arquivo [config.py](https://github.com/mayaragomys/seismic_horizons/blob/main/config.py). Em seguida, execute o comando: 
 ```
 python generateDataset.py
 ```
 
 ### 4 Treinamento:
-Defina as configurações no arquivo [config.py](https://github.com/yalaudah/facies_classification_benchmark). Em seguida, execute o comando:
+Defina as configurações no arquivo [config.py](https://github.com/mayaragomys/seismic_horizons/blob/main/config.py). Em seguida, execute o comando:
 ```
 python main_train.py
 ```
 
 ### 5 Inferência:
-Se modelo baseado em Seção, defina no arquivo [main_test.py](https://github.com/yalaudah/facies_classification_benchmark) o caminho da pasta de treinamento. Em seguida, execute o comando:
+Se modelo baseado em Seção, defina no arquivo [main_test.py](https://github.com/mayaragomys/seismic_horizons/blob/main/main_test.py) o caminho da pasta de treinamento. Em seguida, execute o comando:
 ```
 python main_test.py
 ```
-Se modelo baseado em Patches, defina no arquivo [main_testPatche.py](https://github.com/yalaudah/facies_classification_benchmark) o caminho da pasta de treinamento. Em seguida, execute o comando:
+Se modelo baseado em Patches, defina no arquivo [main_testPatche.py](https://github.com/mayaragomys/seismic_horizons/blob/main/main_testPatche.py) o caminho da pasta de treinamento. Em seguida, execute o comando:
 ```
 python main_testPatche.py
 ```
