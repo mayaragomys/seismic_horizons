@@ -45,12 +45,16 @@ python generateDataset.py
 ### 4 Treinamento:
 Defina as configurações no arquivo [config.py](https://github.com/yalaudah/facies_classification_benchmark). Em seguida, execute o comando:
 ```
-python main_train.py
+python main.py
 ```
 
 ### 5 Inferência:
-Defina no arquivo [main_test.py](https://github.com/yalaudah/facies_classification_benchmark) o caminho da pasta de treinamento. Em seguida, execute o comando:
+Se modelo baseado em Seção, defina no arquivo [main_test.py](https://github.com/yalaudah/facies_classification_benchmark) o caminho da pasta de treinamento. Em seguida, execute o comando:
 ```
 python main_test.py
+```
+Se modelo baseado em Patches, defina no arquivo [main_testPatche.py](https://github.com/yalaudah/facies_classification_benchmark) o caminho da pasta de treinamento. Em seguida, execute o comando:
+```
+python main_testPatche.py
 ```
 
