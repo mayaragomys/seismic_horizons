@@ -17,11 +17,17 @@ O conjunto de dados utilizado neste trabalho foi o bloco F3 da Holanda. Este é 
 
 As anotações dos rótulos deste conjunto de dados consideram um problema multiclasse, onde são divididas em 6 fácies sísmicas. Os horizonte são as fronteiras entre essas fácies. Como o objetivo deste trabalho é encontrar essas fronteiras consideramos o problema como binário, por isso foi necessário adaptar as anotações dos rótulos. Nas imagens definimos o rótulo de background com valor 0 e os horizontes com valor 1.  Para visualização dos resultados neste trabalho o background é representado pela cor branca e os horizontes pela cor preta. Nas imagens abaixos temos um exemplo da adaptação das anotações.
 
+<img src="imagens/adaptacaoDataset.drawio.png" width="500"/>
+
 ## Etapas da Solução
 O método proposto está estruturado em duas etapas: pré-processamento e segmentação.
 Neste trabalho foi utilizado modelos baseados em Seção e baseado em patches. Nas imagens abaixo podemos observar o fluxograma dos processos, para o modelo em seção e para o de patches.
 
+Modelo baseado em Seção:
+<img src="imagens/Diagrama_metodo_patche2.drawio .png" width="500"/>
 
+Modelo baseado em Patches:
+<img src="imagens/Diagrama_metodo_patche2.drawio .png" width="550"/>
 
 ## Implementação
 Para a reprodutibilidade da pesquisa seguem as seguintes etapas.
