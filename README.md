@@ -24,9 +24,11 @@ O método proposto está estruturado em duas etapas: pré-processamento e segmen
 Neste trabalho foi utilizado modelos baseados em Seção e baseado em patches. Nas imagens abaixo podemos observar o fluxograma dos processos, para o modelo em seção e para o de patches.
 
 Modelo baseado em Seção:
+
 <img src="imagens/Diagrama_metodo_secao_final.png" width="500"/>
 
 Modelo baseado em Patches:
+
 <img src="imagens/Diagrama_metodo_patche.png" width="550"/>
 
 ## Implementação
